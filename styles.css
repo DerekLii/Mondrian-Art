@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+}
+
+.container {
+  display: grid;
+  margin: auto;
+  width: 50%;
+  height: 600px;
+  border: 15px solid #944019;
+  grid-template-columns: 20% 39% 12.5% 24%;
+  grid-template-rows: 18% 40% 16% 20%;
+  row-gap: 2%;
+  column-gap: 1.5%;
+  background: black;
+}
+
+.palette {
+  position: absolute;
+  display: grid;
+  width: 150px;
+  height: 600px;
+  border: 5px black solid;
+  margin-left: 80%;
+}
+
+.palette div {
+  height: 100px;
+  width: 100px;
+  margin-left: 15%;
+  margin-top: 15%;
+  border: 5px solid black;
+}
+
+.color:hover {
+  cursor: pointer;
+}
+
+#a {
+  background: red;
+}
+
+#b {
+  background: green;
+}
+
+#c {
+  background: blue;
+}
+
+#d {
+  background: purple;
+}
+
+.color1 {
+  background: red;
+}
